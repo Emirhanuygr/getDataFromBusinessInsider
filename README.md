@@ -10,6 +10,10 @@ olusturdugunuz json dosyasini firebase'e gondermek istiyorsaniz kodun dizininden
 ///   main.py data.json add users-demo-add
 main kismina yazdigim kodu aliniz ve calistiriniz 
 
+main kisminda cred = credentials.Certificate('service-accountkey.json') 
+yazili olan yeri kendi firestore'unuzu entegre ettikten sonra dosyanin ismini yaziniz aksi halde calismaz
+
+
 data.json => projedeki json dosyaniz 
 
 users-demo-add => burasi firestore'da collection name'i
